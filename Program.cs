@@ -1,5 +1,9 @@
 ﻿using System;
+using ConditionalOperator;
+using NullCoalescingOperator;
 using NullConditionalOperator;
+using NullForgivingOperator;
+using NullOperator;
 
 namespace ValoresNulosCSharpNet3
 {
@@ -9,20 +13,40 @@ namespace ValoresNulosCSharpNet3
         {
            
             Console.Clear();
-           
-            // Console.WriteLine("Exemplo (D): System.NullReferenceException");
-            // Console.WriteLine("Exemplo (E): System.NullReferenceException");
             
             NullConditionalOperator();
+            NullCoalescingOperator();
+            NullForgivingOperator();
+            ConditionalOperator();
+            NullOperator();
 
             Console.WriteLine("-----------------------------------");
             Console.ReadKey();
         }
-
         private static void NullConditionalOperator()
         {
             var nullConditional = new OperadorCondicionalNulo();
             nullConditional.LerOperadorCondicionalNulo(); 
+        }
+        private static void NullCoalescingOperator()
+        {
+            var nullConditional = new OperadorAtribuicaoUniaoNula();
+            nullConditional.LerOperadorAtribuicaoUniaoNula(); 
+        }
+        private static void NullForgivingOperator()
+        {
+            var nullConditional = new OperadorPerdoNulos();
+            nullConditional.LerOperadorPerdoNulos(); 
+        }
+        private static void ConditionalOperator()
+        {
+            var nullConditional = new OperadorCondicional();
+            nullConditional.LerOperadorCondicional(); 
+        }
+        private static void NullOperator()
+        {
+            var nullConditional = new Operador();
+            nullConditional.LerOperador(); 
         }
     }
 }

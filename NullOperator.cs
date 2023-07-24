@@ -1,6 +1,6 @@
 using System;
 
-namespace Operator
+namespace NullOperator
 {
     public class Operador
     {
@@ -13,7 +13,7 @@ namespace Operator
         {
             try
             {
-                Console.WriteLine("Exemplo (C): System.NullReferenceException");
+                Console.WriteLine("Exemplo (E): System.NullReferenceException");
                 
                 Operador operadorNulo = new Operador();
                 operadorNulo.Nome = "Fulano";
