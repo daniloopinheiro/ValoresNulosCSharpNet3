@@ -14,7 +14,7 @@ namespace NullConditionalOperator
         {
             try
             {
-                Console.WriteLine("Exemplo (A): System.NullReferenceException"); 
+                Console.WriteLine("Exemplo (A): Referência de objeto não definida para uma instância de um objeto"); 
                 
                 OperadorCondicionalNulo operadorNulo = new OperadorCondicionalNulo();
                 operadorNulo.Nome = "Fulano";

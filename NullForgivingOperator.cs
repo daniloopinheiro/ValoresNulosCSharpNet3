@@ -14,7 +14,7 @@ namespace NullForgivingOperator
         {
             try
             {
-                Console.WriteLine("Exemplo (C): System.NullReferenceException");
+                Console.WriteLine("Exemplo (C): Referência de objeto não definida para uma instância de um objeto");
                 
                 OperadorPerdoNulos operadorNulo = new OperadorPerdoNulos();
                 operadorNulo.Nome = "Fulano";

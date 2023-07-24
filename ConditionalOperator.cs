@@ -14,7 +14,7 @@ namespace ConditionalOperator
         {
             try
             {
-                Console.WriteLine("Exemplo (D): System.NullReferenceException");
+                Console.WriteLine("Exemplo (D): Desconhecido");
                 
                 OperadorCondicional operadorNulo = new OperadorCondicional();
                 operadorNulo.Nome = "Fulano";

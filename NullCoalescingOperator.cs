@@ -14,7 +14,7 @@ namespace NullCoalescingOperator
         {
             try
             {
-                Console.WriteLine("Exemplo (B): System.NullReferenceException");
+                Console.WriteLine("Exemplo (B): Default");
                 
                 OperadorAtribuicaoUniaoNula operadorNulo = new OperadorAtribuicaoUniaoNula();
                 operadorNulo.Nome = "Fulano";

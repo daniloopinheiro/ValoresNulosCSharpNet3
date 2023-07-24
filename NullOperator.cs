@@ -13,7 +13,7 @@ namespace NullOperator
         {
             try
             {
-                Console.WriteLine("Exemplo (E): System.NullReferenceException");
+                Console.WriteLine("Exemplo (E): propriedade é nulo");
                 
                 Operador operadorNulo = new Operador();
                 operadorNulo.Nome = "Fulano";
